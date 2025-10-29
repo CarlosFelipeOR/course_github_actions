@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Comment
-        run: echo "PUSH Workflow comment - Branch Ignore"
+        run: echo "PUSH Workflow comment - Path"
