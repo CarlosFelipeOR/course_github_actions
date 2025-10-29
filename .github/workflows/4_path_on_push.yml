@@ -2,12 +2,12 @@ name: Github actions - Push Template Basic
 run-name: Running - ${{ github.event_name }}
 on:
   push:
-    branches-ignore:
-      - main
+    paths:
+      - "**.txt"
 
 jobs:
   on-push:
     runs-on: ubuntu-latest
     steps:
       - name: Comment
-        run: echo "PUSH Workflow comment"
+        run: echo "PUSH Workflow comment - Branch Ignore"
