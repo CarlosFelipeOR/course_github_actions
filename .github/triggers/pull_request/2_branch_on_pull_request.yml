@@ -2,7 +2,7 @@ name: GitHub Actions - Pull Request Template Basico
 run-name: Running - ${{ github.event_name }}
 on:
   pull_request:
-    branches:
+    branches: ## Branch pra onde vai
       # - develop
       - main
 jobs:
